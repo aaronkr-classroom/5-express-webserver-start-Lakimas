@@ -1,9 +1,9 @@
-<!-- layout.ejs -->
+<!-- layout.ejs (p. 162) -->
 
 <body>
     <header id="nav">
         <%- include('partials/navigation') %>
     </header>
-    <%- body %>
-    <footer id="footer">FOOTER</footer>
+    <%- body %><!-- 표준 HTML로 본문 둘러싸기 -->
+    <footer id="footer">&copy; 2024 <%=name %></footer>
 </body>
